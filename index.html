@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Lean Tomato</title>
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/bootstrap.css" id="theme">
+  <link rel="stylesheet" href="css/site.css" id="theme">
+  <link href='css/rings.css' rel='stylesheet'>
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <img src="images/logo.png" alt="LeanTomato"/>
+        <footer>Tom Howlett <br/>@diaryofscrum </footer>
+      </section>
+
+      <!--
+      -->
+      <section>
+        <h3>Who Am I?</h3> 
+        <ul>
+          <li>I've spent 15 Years working on and building development teams
+          <li>I've been blogging about my experiences for 6 years at "Diary of a Scrummaster"
+          <li>I'm writing a book called "The Programmers Guide To People"
+          <li>I run Cheltenham Geek Nights, we have 250 members
+          <li>I've spoken about Agile at conferences in London and Paris
+        </ul>
+      </section>
+      <section>
+        <h1>What is Agile?</h1>
+      </section>
+      <section>
+        <h2>AgileManifesto.org</h2>
+        <p><strong>Individuals and interactions</strong> over processes and tools<br/>
+        <strong>Working software</strong> over comprehensive documentation<br/>
+        <strong>Customer collaboration</strong> over contract negotiation<br/>
+        <strong>Responding to change</strong> over following a plan</p>
+      </section>
+      <section>
+      <h2>Why Agile?</h2>
+      <ul>
+        <li>Happier, more engaged, smarter customers and employees through greater collaboration
+        <li>Less waste - Discover whats really needed faster through experimentation
+        <li>No suprises at the end - Discover problems earlier
+      </section>
+      <section>
+      <h2>How?</h2>
+      <ul>
+        <li>Make reality visible - Inspect and Adapt
+        <li>Prioiritise learning - Develop a culture of Continuous Improvement
+        <li>Listen -  How can you better meet each others' needs?
+        <li>Collaborate - Work together to improve <strong>Flow</strong>
+        <li>Reflect &amp; Support - Be prepared to be wrong
+        </ul>
+      </section>
+      <section>
+        <h1>Practices</h1>
+        <ul>
+          <li>Prioritised Backlog
+          <li>Team Board
+          <li>Standups, Retrospectives
+          <li>TDD - Testing all the time
+          <li>Pair Programming
+          <li>Continuous Integration
+        </ul>
+      </section>
+      <section style="padding:20px">
+        <h3>How does Agile Work?<h3/>
+        <svg class="rings" data-effect='[ 
+          { "nv":"Suspicion", "pv":"Visualisation","val":0, 
+          "cause":{"Work Together":9}},
+          { "nv":"Overloaded", "pv":"Small WIP","val":0,
+          "cause":{"Pull Work":5, "Pairing":2, "Have Conversations":2}},
+          { "nv":"Frustration", "pv":"Flow","val":0,
+          "cause":{"Have Conversations":3, "Test all the time":3, "Fix bugs":3}},
+          { "nv":"Blind", "pv":"Feedback Loops","val":0,
+          "cause":{"Have Conversations":3, "Pairing":3,"Test all the time":3}},
+          { "nv":"Ad-hoc", "pv":"Explicit Policies","val":0,
+          "cause":{"Reflect":9}},
+          { "nv":"Stagnation", "pv":"Continous Improvement","val":0, "purpose":true}]'
+          data-cause='[
+          { "nv":"Work Alone", "pv":"Work Together", "val":-30},
+          { "nv":"Assigned Work", "pv":"Pull Work", "val":-30},
+          { "nv":"Use Documents", "pv":"Have Conversations", "val":-30},
+          { "nv":"Code Reviews", "pv":"Pairing","val":-30},
+          { "nv":"Test at End", "pv":"Test all the time", "val":-30},
+          { "nv":"Log Bugs", "pv":"Fix bugs", "val":-30},
+          { "nv":"Keep Busy", "pv":"Reflect", "val":-30}]' >
+        </svg>
+      </section>
+      <section>
+        <h2>How can I help?</h2>
+        <ul>
+          <li>Workshops
+          <li>Coaching/Pairing/Mentoring
+        </ul>
+        <p>Change is hard - one step at a time</p>
+      </section>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/d3.v3.min.js"></script>
+  <script src="js/rings.js"> </script>
+  <script src="js/head.min.js"></script>
+  <script src="js/reveal.min.js"></script>
+  <script>
+    Reveal.initialize();
+  </script>
+</body>
+
