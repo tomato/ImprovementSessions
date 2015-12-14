@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Lean Tomato</title>
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/bootstrap.css" id="theme">
+  <link rel="stylesheet" href="css/site.css" id="theme">
+  <link href='css/rings.css' rel='stylesheet'>
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <img src="images/logo.png" alt="LeanTomato"/>
+        <footer>Tom Howlett <br/>@diaryofscrum </footer>
+      </section>
+
+      <!--
+      -->
+      <section>
+        <h2>Shifting Culture From <br/>"Us And Them" <br/>to <br/>"How can we help?"</h2>
+      </section>
+      <section style="padding:0">
+        <img src="./images/usandthem/SocialVsHierarchical.svg" alt="Social or not">
+      </section>
+      <section>
+        <h2>The Dunbar Number</h2>
+        <div class="row">
+          <div class="col-md-8">
+            <img src="./images/usandthem/village.jpg" alt="commuinities tend to peak around 150 people">
+          </div>
+          <div class="col-md-4">
+            <img src="./images/usandthem/dunbar.jpg" alt="Robin Dunbar the Anthropologist">
+          </div>
+        </div>
+        <p>
+          Professor Robin Dunbar suggests that 150 is the maximum number of people with whom one can maintain stable relationships
+        </p>
+      </section>
+      <section>
+        <h2>
+          Our success depends on the ability to create cooperative relationships within and across teams.
+        </h2>
+        <div>
+          <img src="./images/usandthem/businessman.svg" style="width:50%;" alt="commuinities tend to peak around 150 people">
+        </div>
+      </section>
+      <section>
+        <div class="col-md-4">
+          <img src="./images/usandthem/man282.svg" style="width:50%;" alt="commuinities tend to peak around 150 people">
+        </div>
+        <div class="col-md-8">
+          <h2>What gets in the way of cooperative relationships at work?</h2>
+        </div>
+      </section>
+      <section>
+          <svg class="rings" data-effect='[
+  { "nv":"Suspicion", "pv":"Trust","val":0,
+    "cause":{"Closeness":3, "Openness":3, "Listening":3 }},
+  { "nv":"Fear", "pv":"Courage","val":0,
+    "cause":{"Group Reflection":3, "Success stories":3}},
+  { "nv":"Frustration", "pv":"Fellowship","val":0,
+    "cause":{"Appreciation":3, "Vulnerability":3}},
+  { "nv":"Us and Them", "pv":"How can we help?","val":0, "purpose":true}]'
+
+  data-cause='[
+  { "nv":"Separation", "pv":"Closeness", "val":-30},
+  { "nv":"Concealment", "pv":"Openness", "val":-30},
+  { "nv":"Ignoring", "pv":"Listening", "val":-30},
+  { "nv":"Blame", "pv":"Group Reflection","val":-30},
+  { "nv":"Scare stories", "pv":"Success stories", "val":-30},
+  { "nv":"Punishment", "pv":"Appreciation", "val":-30},
+  { "nv":"Defensiveness", "pv":"Vulnerability", "val":-30}]'/>
+
+      </section>
+      <!-- add some icons -->
+      <section>
+        <h3>Identifying the "Us and "Thems" at River</h3>
+        <ul>
+          <li>Which roles are the "Us" and "Thems"? What type of things do you blame each other for?
+          <li>Create a poster illustrating these relationships
+        </ul>
+      </section>
+      <section>
+        <h3>Blame Role Play!</h3>
+        <ul>
+          <li>Select an Us and Them that you feel would benefit from close collaboration
+          <li>Split each team into 2. One side be the Us, the other the Them
+          <li>Now blame each other for all your problems!
+        </ul>
+      </section>
+      <section>
+         <h3>Where does the blame come from?</h3>
+         <p/>
+         <div  class="fragment">
+           <h3>Not treating "thems" as real people</h3>
+           <div>
+             <img src='./images/usandthem/celebrate.svg' alt="Celebrate" style="width:50%"/>
+           </div>
+         </div>
+      </section>
+      <section>
+        <h3>What happens to our problems when we blame?</h3>
+        <p/>
+        <h3 class="fragment">We remove the possiblity of helping to fix them</h3>
+
+      </section>
+      <section>
+        <h3>What can we do to repair the relationships?</h3>
+        <div class="fragment">
+          <h3>Replace Blame with Enquiry</h3>
+          <ul>
+            <li>What are their frustrations? How can you help
+            <li>Replace Judgement with Empathy?
+            <li>Openness: Explain your frusration and needs.
+          </ul>
+          <div>
+            <img src='./images/usandthem/enquiry.svg' alt="Enquiry"/>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3>Repair your relationship</h3>
+        <ul>
+          <li>Return to you Role Play and practice the techniques we've discussed to repair the relationship
+        </ul>
+      </section>
+      <section>
+        <h2>Close</h2>
+        <ul>
+          <li>Try and notice when you are blaming others
+          <li>Take time to learn more about that persons situation
+          <li>Ask how you can help
+        </ul>
+        <div>
+          <img src='./images/usandthem/handshake3.svg' alt="Enquiry"  style="width:50%"/>
+        </div>
+      </section>
+      </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/d3.v3.min.js"></script>
+  <script src="js/rings.js"> </script>
+  <script src="js/head.min.js"></script>
+  <script src="js/reveal.min.js"></script>
+  <script>
+    Reveal.initialize();
+  </script>
+</body>
