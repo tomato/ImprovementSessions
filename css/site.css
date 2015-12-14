@@ -4,6 +4,10 @@ body {
   padding-top: 30px;
 }
 
+.reveal sup {
+  font-size: 0.6em;
+}
+
 .important.answer, .menu{
   font-size: 19px;
   font-weight: 300;
@@ -21,11 +25,12 @@ blockquote {
   margin: 0;
 }
 
+
 a, a:hover{
   color: #73a22f;
 }
 
-h1, h2, h3, h4{
+.reveal h1, .reveal h2, .reveal h3, .reveal h4{
   color: #FA3419;
   margin: 10px 0;
   line-height: 1.3em;
