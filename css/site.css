@@ -27,7 +27,8 @@ blockquote {
 
 
 a, a:hover{
-  color: #73a22f;
+  color: #333;
+  text-decoration: underline;
 }
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4{
@@ -38,10 +39,10 @@ a, a:hover{
 
 .reveal p { margin: 10px 0; }
 
-body {
+/*body {
   background: url(../images/talltrees.JPG) repeat-y ;
   background-position: 25%;
-}
+}*/
 
 .reveal .slides>section {
   background: none;
